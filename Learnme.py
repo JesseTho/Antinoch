@@ -1,85 +1,90 @@
-## tuple () vs list []
-## d = {'x': 1} dictionary ( hash table)
-## d['x'] is 1, dictionary order does not matter.
-## t[:3] start to 3
+#  tuple () vs list []
+#  d = {'x': 1} dictionary ( hash table)
+#  d['x'] is 1, dictionary order does not matter.
+#  t[:3] start to 3
 
-# def multiparamfunc(x,y,z):
-#     return x + y * z
+#  def multiparamfunc(x,y,z):
+#      return x + y * z
 
-# def time(x,y=1, z=1):
-#         return x * y - z
-# def factorial(x, check_less_than_zero=True):
-#     if check_less_than_zero:
-#         if x < 0:
-#             raise Exception('ack!')
-#     if x == 0:
-#         return 1
-#     return x * factorial(x-1)
+#  def time(x,y=1, z=1):
+#          return x * y - z
+#  def factorial(x, check_less_than_zero=True):
+#      if check_less_than_zero:
+#          if x < 0:
+#              raise Exception('ack!')
+#      if x == 0:
+#          return 1
+#      return x * factorial(x-1)
 
-## pep 8
-
-
+#  pep 8
 
 
 
-print "hello world"
-#learnpythonthehardway.org
-#pythontutor.com
 
-# def times2(x):
-#   return x * 2
+
+# print "hello world"
+# learnpythonthehardway.org
+# pythontutor.com
+
+#  def times2(x):
+#    return x * 2
  
-# def myFunc(x):
+#  def myFunc(x):
     
 
-#   x = times2(x)
-#   print x
-#   ##myFunc(x)
+#    x = times2(x)
+#    print x
+#    myFunc(x)
 
-##myFunc(8)
+# myFunc(8)
 
-## import functions as f 
-## can use f.functionName 
+#  import functions as f 
+#  can use f.functionName 
 
-## factoral 0 is 1
+#  factoral 0 is 1
 
-# def factorial2(n):
-#     return n * factorial2(n-1) if n > 0 else 1
+#  def factorial2(n):
+#      return n * factorial2(n-1) if n > 0 else 1
 
-# x = 3
+#  x = 3
 
-# def wierd():
-#     global x
-#     x = x * 10
-#     print x
+#  def wierd():
+#      global x
+#      x = x * 10
+#      print x
 
-# def x1(x):
-#     return x + 1
-# def x2(x):
-#     return x + 2
+#  def x1(x):
+#      return x + 1
+#  def x2(x):
+#      return x + 2
 
-# def xmaster(f,x):
-#     return f(x)
+#  def xmaster(f,x):
+#      return f(x)
 
-# map(f.x1,l)
+#  map(f.x1,l)
 
 
-## Anonymous function starts with lambda
-## single expression repeatively.
+#   Anonymous function starts with lambda
+#   single expression repeatively.
 
-## functions should be less than 20 lines as 
-## keeping track of a complicated function is hard
-## small functions being called by a master function is better
+#   functions should be less than 20 lines as 
+#   keeping track of a complicated function is hard
+#   small functions being called by a master function is better
 
-# def p(s):
-#     print s
+#  def p(s):
+#      print s
 
-# def r(s):
-#     print s,s,s,s
+#  def r(s):
+#      print s,s,s,s
 
-# def print_alot(s):
-#     p(s)
-#     r(s)
-#     p(s)
+#  def print_alot(s):
+#      p(s)
+#      r(s)
+#      p(s)
+
+
+# #  Here's why it smells?
+# #  codesmell
+#  f.times(3,z=2)
 
 
