@@ -85,6 +85,16 @@
 
 # #  Here's why it smells?
 # #  codesmell
-#  f.times(3,z=2)
+#  f.times(3,z=2)---
 
 
+def summation(x):
+    if x < 0:
+        raise Exception("negative numbers are not allowed")
+    # i=0
+    # sum=0
+    # while i <x:
+    #     i += 1
+    #     sum += i
+       
+    return sum (range(x+1))       
